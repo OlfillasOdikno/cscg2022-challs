@@ -1,0 +1,127 @@
+
+# ----SUB r3, r3----
+# zero out register
+249, 249, 1
+# load -src into scratch
+257, 0, 2
+# load src into dst register
+0, 249, 3
+# reset scratch
+0, 0, 4
+
+# ----SUB r3, r3----
+# zero out register
+251, 251, 5
+# load -src into scratch
+258, 0, 6
+# load src into dst register
+0, 251, 7
+# reset scratch
+0, 0, 8
+
+# ----SUB r3, r3----
+# zero out register
+250, 250, 9
+# load -src into scratch
+16, 0, 10
+# load src into dst register
+0, 250, 11
+# reset scratch
+0, 0, 12
+
+# ----SUB r3, r3----
+#store -src in scratch
+251, 0, 13
+#sub -src from dst (add src to dst)
+0, 250, 14
+# reset scratch
+0, 0, 15
+
+# ----SUB r3, r3----
+249, 250, 16
+
+# ----SUB r3, r3----
+# if src == 0 jmp
+250, 0, 18
+#nz
+0, 0, 19
+#z
+0, 0, 23
+
+# ----SUB r3, r3----
+# zero out register
+248, 248, 20
+# load -src into scratch
+259, 0, 21
+# load src into dst register
+0, 248, 22
+# reset scratch
+0, 0, 23
+
+# ----SUB r3, r3----
+# zero out register
+249, 249, 24
+# load -src into scratch
+260, 0, 25
+# load src into dst register
+0, 249, 26
+# reset scratch
+0, 0, 27
+
+# ----SUB r3, r3----
+# zero out register
+251, 251, 28
+# load -src into scratch
+258, 0, 29
+# load src into dst register
+0, 251, 30
+# reset scratch
+0, 0, 31
+
+# ----SUB r3, r3----
+# zero out register
+250, 250, 32
+# load -src into scratch
+17, 0, 33
+# load src into dst register
+0, 250, 34
+# reset scratch
+0, 0, 35
+
+# ----SUB r3, r3----
+#store -src in scratch
+251, 0, 36
+#sub -src from dst (add src to dst)
+0, 250, 37
+# reset scratch
+0, 0, 38
+
+# ----SUB r3, r3----
+249, 250, 39
+
+# ----SUB r3, r3----
+# if src == 0 jmp
+250, 0, 41
+#nz
+0, 0, 42
+#z
+0, 0, 46
+
+# ----SUB r3, r3----
+# zero out register
+248, 248, 43
+# load -src into scratch
+259, 0, 44
+# load src into dst register
+0, 248, 45
+# reset scratch
+0, 0, 46
+
+# ----SUB r3, r3----
+249, 249, 47
+
+# ----SUB r3, r3----
+250, 250, 48
+
+# ----SUB r3, r3----
+251, 251, 49

@@ -1,0 +1,2 @@
+7ee249f8453700b60bb273dbfe68bb45cac0d899  bootloader-prod
+c246a9169062372567baa2994910ce49995d84c9  bootloader-test

